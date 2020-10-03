@@ -1,6 +1,7 @@
 package com.example.assignment4;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
 {
     private final LinkedList<String> rWordList;
     private final LayoutInflater rInflater;
+    private Context context;
 
     class RecipeViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public final TextView recipeItemView;
@@ -28,20 +30,24 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
         }
         public void onClick(View view) {
             // Get the position of the item that was clicked.
-            int rPosition = getLayoutPosition();
+//            int rPosition = getLayoutPosition();
+//
+//            // Use that to access the affected item in mWordList.
+//            String element = rWordList.get(rPosition);
+//            // Change the word in the mWordList.
+            // Switch to other page when user clicks on recycle item
+            Intent intent = new Intent(context, RecipePage.class);
+            context.startActivity(intent);
 
-            // Use that to access the affected item in mWordList.
-            String element = rWordList.get(rPosition);
-            // Change the word in the mWordList.
-
-            rWordList.set(rPosition, "Clicked! " + element);
-            // Notify the adapter, that the data has changed so it can
-            // update the RecyclerView to display the data.
-            rAdapter.notifyDataSetChanged();
+//            rWordList.set(rPosition, "Clicked! " + element);
+//            // Notify the adapter, that the data has changed so it can
+//            // update the RecyclerView to display the data.
+//            rAdapter.notifyDataSetChanged();
         }
     }
 
-    public RecipeAdapter(Context context, LinkedList<String> wordList) {
+    public RecipeAdapter(Context mcontext, LinkedList<String> wordList) {
+        context = mcontext;
         rInflater = LayoutInflater.from(context);
         this.rWordList = wordList;
     }
@@ -57,6 +63,8 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
         String rCurrent = rWordList.get(position);
         // Add the data to the view holder.
         holder.recipeItemView.setText(rCurrent);
+
+
     }
 
 
