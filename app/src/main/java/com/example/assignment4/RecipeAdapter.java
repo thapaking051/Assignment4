@@ -20,23 +20,25 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
 
     class RecipeViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public final TextView recipeItemView;
+//        public final TextView recipeDescription;
         final RecipeAdapter rAdapter;
 
         public RecipeViewHolder(View itemView, RecipeAdapter adapter) {
             super(itemView);
             recipeItemView = itemView.findViewById(R.id.recipeTitle);
+//            recipeDescription = itemView.findViewById(R.id.recipeDescription);
             this.rAdapter = adapter;
             itemView.setOnClickListener(this);
         }
         public void onClick(View view) {
             // Get the position of the item that was clicked.
-//            int rPosition = getLayoutPosition();
-//
-//            // Use that to access the affected item in mWordList.
-//            String element = rWordList.get(rPosition);
-//            // Change the word in the mWordList.
+            int rPosition = getLayoutPosition();
+            String element = rWordList.get(rPosition);
+
             // Switch to other page when user clicks on recycle item
             Intent intent = new Intent(context, RecipePage.class);
+            intent.putExtra("foodName", element);
+
             context.startActivity(intent);
 
 //            rWordList.set(rPosition, "Clicked! " + element);

@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        for (int i = 0; i < 20; i++) {
-            rList.addLast("Word " + i);
-        }
+        rList.addLast("Cake");
+        rList.addLast("Chicken");
+        rList.addLast("Beef");
 
         // Create recycler view.
         recyclerView = findViewById(R.id.recycleView);
