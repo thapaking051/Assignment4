@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         descriptionList.addLast(getString(R.string.curry_description));
         recipeList.addLast(getString(R.string.curry_recipe));
 
+        titleList.addLast(getString(R.string.trout_title));
+        descriptionList.addLast(getString(R.string.trout_description));
+        recipeList.addLast(getString(R.string.trout_recipe));
+
         // Create recycler view.
         recyclerView = findViewById(R.id.recycleView);
         // Create an adapter and supply the data to be displayed.
