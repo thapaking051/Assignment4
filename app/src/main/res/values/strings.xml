@@ -6,6 +6,94 @@
     <string name="cake">Cake is good</string>
     <string name="chicken">Chicken is good</string>
     <string name="beef">Beef is good</string>
+    
+    <string name="kale_lemon_sandwich_title">Kale/Lemon Sandwich</string>
+    <string name="kale_lemon_sandwich_description"></string>
+
+    <string name="air_fryer_chicken_thighs_title">Air Fryer Chicken Thighs</string>
+    <string name="air_fryer_chicken_thighs_description">These juicy chicken thighs are done in under 30 minutes and the air fryer makes it so easy!</string>
+    <string name="air_fryer_chicken_thighs_recipe">
+        Ingredients\n
+        4 etches skin-on, boneless chicken thighs\n
+        2 teaspoons extra-virgin olive oil\n
+        1 teaspoon smoked paprika\n
+        ¾ teaspoon garlic powder\n
+        ½ teaspoon salt\n
+        ½ teaspoon ground black pepper\n\n
+
+        Steps\n
+        1: Preheat an air fryer to 400 degrees F (200 degrees C).\n
+        2: Pat chicken thighs dry with a paper towel and brush the skin-side of each piece with olive oil. Place chicken thighs, skin-side down, in a single layer on a plate.\n
+        3: Combine smoked paprika, garlic powder, salt, and pepper in a bowl and sprinkle half the seasoning mixture evenly over the 4 chicken thighs. Turn thighs over and evenly sprinkle remaining seasoning mixture on top. Place chicken thighs in the air fryer basket in a single layer, skin-side up.\n
+        4: Fry in the preheated air fryer until chicken is brown and juices run clear, about 18 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).\n
+    </string>
+
+    <string name="italian_sausage_title">Grilled Italian Sausage with Peppers and Onions</string>
+    <string name="italian_sausage_description">Italian sausage, bell peppers, and onions made easy on the grill. You can also serve the sausage in hot dog buns and finely chop the veggies once grilled as a "relish"</string>
+    <string name="italian_sausage_recipe">
+        Ingredients\n
+        1 red bell pepper, cut into strips\n
+        1 green bell pepper, cut into strips\n
+        1 yellow bell pepper, cut into strips\n
+        1 small white onion, sliced into petals\n
+        1 small red onion, sliced into petals\n
+        1 tablespoon olive oil\n
+        1/2 teaspoon dried Italian seasoning\n
+        salt and ground black pepper to taste\n
+        5 (4 ounce) links hot Italian sausage links\n\n
+
+        Steps\n
+        1: Preheat an outdoor grill for medium-high heat and lightly oil the grate.\n
+        2: Combine bell peppers and onions in a large bowl. Add olive oil, Italian seasoning, salt, and pepper. Stir to combine. Using a toothpick, poke 4 holes into each sausage to prevent them from exploding on the grill.\n
+        3: Place vegetables in a grill basket and cook for 2 minutes. Add sausage directly to the grate and grill for 4 minutes. Flip sausage over, stir vegetables, and grill for 4 minutes more.\n
+    </string>
+    
+    <string name="quesadillas_title">Quesadillas</string>
+    <string name="quesadillas_description">These quick cooking quesadillas are loaded with cheese, salsa and green onions and are perfect for those busy weeknights when you don\'t have a lot of time. They\'re easy, kid-friendly and just plain good!</string>
+    <string name="quesadillas_recipe">
+        Ingredients\n
+        6flour tortilla (8-inch), warmed\n
+        1 1/2cups shredded Monterey Jack cheese (about 6 ounces)\n
+        2medium green onion, sliced (about 1/4 cup)\n
+        3/4cup Pace® Chunky Salsa or Pace® Original Picante Sauce Medium\n
+        2tablespoons canola oil\n\n
+
+        Steps\n
+        1: Top half of each tortilla with 1/4 cup cheese, 2 teaspoons green onions and 1 tablespoon salsa.  Brush the edges of the tortillas with water.  Fold the tortillas over the filling and press to seal.\n
+        2: Heat the oil in a 12-inch skillet over medium-high heat.  Add the quesadillas and cook in batches until lightly browned on both sides and the cheese is melted.  Serve with the remaining salsa.\n
+    </string>
+
+    <string name="teriyaki_title">Teriyaki Chicken</string>
+    <string name="teriyaki_description">Crispy skinless chicken thighs stir-fried and swimming in a beautiful flavoured homemade teriyaki sauce. A hint of garlic adds a twist on a traditional Japanese Teriyaki Chicken recipe and makes it absolutely addictive! This is better than ANY store-bought teriyaki sauce, guaranteed.</string>
+    <string name="teriyaki_recipe">
+        Ingredients\n
+        2 lb chicken thighs (910 g), sliced into chunks\n
+        1 cup soy sauce (240 mL)\n
+        ½ cup brown sugar (110 g)\n\n
+
+        Steps\n
+        1: Sear the chicken thighs evenly in a pan, then flip.\n
+        2: Add the soy sauce and brown sugar, stirring and bringing to a boil.\n
+        3: Stir until the sauce has reduced and evenly glazes the chicken.\n
+        4: Serve with rice, if desired!\n
+        5: Enjoy!
+    </string>
+
+    <string name="curry_title">Red Curry Chicken</string>
+    <string name="curry_description">Four-ingredient red curry chicken with noodles is easy, quick, and inexpensive to make. Sweetened with coconut milk for unbelievable flavor! Top with chopped cilantro, green onions, and red chile peppers if desired.</string>
+    <string name="curry_recipe">
+        Ingredients\n
+        2 tablespoons coconut oil\n
+        1 (16 ounce) package skinless, boneless chicken breast halves, cut into small cubes\n
+        1 (14 ounce) can cream of coconut (such as Trader Joe\'s® Extra Thick and Rich)\n
+        1 (11 ounce) bottle red Thai curry sauce (such as Trader Joe\'s®)\n
+        ½ (16 ounce) package dried rice stick vermicelli noodles\n\n
+
+        Steps\n
+        1: Heat oil in a large skillet on high heat. Add chicken cubes; cook until browned, about 2 minutes per side. Reduce heat to medium-high and add coconut cream and curry sauce. Cook until chicken is no longer pink in the center and the juices run clear, about 5 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).\n
+        2: Fill a large pot with lightly salted water and bring to a rolling boil; stir in vermicelli pasta and return to a boil. Cook pasta uncovered, stirring occasionally, until the pasta is tender yet firm to the bite, 4 to 5 minutes. Drain.\n
+        3: Reduce skillet heat to simmer. Add the noodles and let simmer until flavors are absorbed, about 5 minutes. Divide chicken and noodles among individual serving bowls.\n
+    </string>
     <string name="foodImage">Food</string>
     <string name="textview">TextView</string>
 </resources>
