@@ -38,16 +38,10 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
             int rPosition = getLayoutPosition();
             String element = rList.get(rPosition);
 
-            // Switch to other page when user clicks on recycle item
             Intent intent = new Intent(context, RecipePage.class);
             intent.putExtra("recipe", element);
 
             context.startActivity(intent);
-
-//            rWordList.set(rPosition, "Clicked! " + element);
-//            // Notify the adapter, that the data has changed so it can
-//            // update the RecyclerView to display the data.
-//            rAdapter.notifyDataSetChanged();
         }
     }
 
