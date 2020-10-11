@@ -39,7 +39,7 @@
         2: Combine bell peppers and onions in a large bowl. Add olive oil, Italian seasoning, salt, and pepper. Stir to combine. Using a toothpick, poke 4 holes into each sausage to prevent them from exploding on the grill.\n
         3: Place vegetables in a grill basket and cook for 2 minutes. Add sausage directly to the grate and grill for 4 minutes. Flip sausage over, stir vegetables, and grill for 4 minutes more.\n
     </string>
-    
+
     <string name="quesadillas_title">Quesadillas</string>
     <string name="quesadillas_description">These quick cooking quesadillas are loaded with cheese, salsa and green onions and are perfect for those busy weeknights when you don\'t have a lot of time. They\'re easy, kid-friendly and just plain good!</string>
     <string name="quesadillas_recipe">
@@ -103,5 +103,5 @@
         2: Place trout in the middle of the aluminum foil; top with butter, lemon pepper, capers, and paprika. Pour cooking wine over trout. Close foil around the trout.\n
         3: Bake in the preheated oven until fish flakes easily with a fork, about 30 minutes. Garnish trout with parsley.\n
     </string>
-    <string name="test">Test</string>
+    <string name="textview">Hola Hermosa</string>
 </resources>
