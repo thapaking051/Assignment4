@@ -27,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 finish();
                 hum.stop();
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, RecipeListActivity.class));
             }
         };
         timer = new Timer();

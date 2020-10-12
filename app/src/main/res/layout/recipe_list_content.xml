@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/recipeTitle"
-        style="@style/titleMain"
-        android:layout_marginTop="5dp"/>
+        android:id="@+id/content"
+        style="@style/titleMain"/>
 
     <TextView
-        android:id="@+id/recipeDescription"
+        android:id="@+id/description"
         style="@style/multiLineText"
-        android:layout_marginTop="8dp" />
-
+        />
 </LinearLayout>
